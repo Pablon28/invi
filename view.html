@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +21,7 @@
           class="gif"
         />
         <div id="text-container">
-          <p class="text">Hellouss<span class="bold" id="name"></span>!</p>
+          <p class="text">Hellouss</p>
           <p class="text">te gustaria ser mi valentine date? ?</p>
         </div>
         <div class="button-container">
@@ -34,10 +34,7 @@
     </main>
   </body>
   <script>
-    $(document).ready(() => {
-      const name = new URLSearchParams(window.location.search).get("name");
-      const sender = new URLSearchParams(window.location.search).get("sender");
-      $("#name").text(name ? " " + name : "");
+   
 
       let isRepositioned = false;
 
@@ -97,10 +94,8 @@
           class="gif"
           />
           <p class="text">Gracias morcito ti amu 3 millones ♥♥♥</p>
-          <p class="text">Te vere ese dia con sorpresas ;D <span class="bold" id="name">${
-            name ? " " + name : ""
-          }</span>!!!</p>
-          <p class="text">${sender ? '- ' + sender : ''}</p>
+          <p class="text">Te vere ese dia con sorpresas ;D </p>
+          <p class="text">att:pablo</p>
         </div>
       `
         );
